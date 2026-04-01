@@ -3,7 +3,7 @@
 
     // Usage:
     //   php detect.php https://example.com
-    //   php detect.php https://example.com --json
+    //   php detect.php https://example.com --json # for JSON output
 
     if ($argc < 2) {
     echo "Usage: php detect.php <url> [--json]\n";
@@ -630,4 +630,4 @@
     echo red("No clear framework/CMS detected.\n");
     }
 
-    echo "\nDone.\n";
+echo "\nDone.\n";
